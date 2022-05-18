@@ -1,4 +1,4 @@
-PIKACHU: Temporal Walk Based Dynamic Graph Embedding for Network Anomaly Detection
+PIKACHU
 ============
 
 PIKACHU, a sophisticated, unsupervised, temporal walk-based dynamic network
@@ -11,7 +11,7 @@ to understand the lateral movement of the attacker.
 
 This is a TensorFlow implementation of the PIKACHU model as described in our paper:
 
-Paudel, R., Huang, H. (2022). PIKACHU: Temporal Walk Based Dynamic Graph Embedding for Network Anomaly Detection, [https://www.researchgate.net/profile/Ramesh-Paudel-2/publication/360177229_PIKACHU_Temporal_Walk_Based_Dynamic_Graph_Embedding_for_Network_Anomaly_Detection/links/6266bf78bca601538b679392/PIKACHU-Temporal-Walk-Based-Dynamic-Graph-Embedding-for-Network-Anomaly-Detection.pdf], published in NOMS 2022.
+Paudel, R., Huang, H. (2022). [PIKACHU: Temporal Walk Based Dynamic Graph Embedding for Network Anomaly Detection](https://www.researchgate.net/profile/Ramesh-Paudel-2/publication/360177229_PIKACHU_Temporal_Walk_Based_Dynamic_Graph_Embedding_for_Network_Anomaly_Detection/links/6266bf78bca601538b679392/PIKACHU-Temporal-Walk-Based-Dynamic-Graph-Embedding-for-Network-Anomaly-Detection.pdf), published in NOMS 2022.
 
 ![Construction of PIKACHU](fig/framework.png)
 
