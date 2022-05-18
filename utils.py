@@ -74,8 +74,6 @@ class DataUtils:
 
     def get_data(self):
         data_df = pd.read_csv(self.data_folder, header=0)
-        data_df = data_df[(data_df['snapshot'] >= 65) & (data_df['snapshot'] <= 75)]
-        data_df.to_csv('dataset/optc/sample.csv')
         node_df = data_df[['src_computer', 'dst_computer']]
         node_df = node_df.drop_duplicates()
         node_map = self.get_node_map(node_df)
