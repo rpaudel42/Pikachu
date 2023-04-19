@@ -140,5 +140,5 @@ class PIKACHU:
         dynamic_embs = self.long_term_embedding(short_term_embs)
         print("\nLong Term Embedding Completed...   [%s Sec.]" % (timer() - s_time))
         with open('weights/long_term' + save_file , 'wb') as f:
-            pickle.dump(short_term_embs, f)
+            pickle.dump(dynamic_embs, f)
         gc.collect()
